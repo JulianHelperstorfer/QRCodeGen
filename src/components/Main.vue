@@ -19,6 +19,10 @@ export default {
   components: {
     ColorPicker,
   },
+  setup() {
+    let color = ref('#000000');
+    let suckerHide = '';
+  },
 };
 </script>
 
